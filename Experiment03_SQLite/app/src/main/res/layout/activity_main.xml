@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STUDENT DATABASE"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/etRollNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Roll Number"
+            android:inputType="number"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Branch"
+            android:inputType="text"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etMarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marks"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD STUDENT" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE STUDENT" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DELETE STUDENT" />
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW STUDENTS"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvRecords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student records will appear here."
+            android:textSize="16sp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

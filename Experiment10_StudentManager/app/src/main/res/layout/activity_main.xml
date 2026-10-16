@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Productivity Manager"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Organize your studies, one task at a time."
+            android:textSize="16sp"
+            android:paddingBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvTotalTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total tasks: 0"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tvPendingTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pending tasks: 0"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnAddTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Task" />
+
+        <Button
+            android:id="@+id/btnViewTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View All Tasks" />
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About App" />
+
+    </LinearLayout>
+</ScrollView>

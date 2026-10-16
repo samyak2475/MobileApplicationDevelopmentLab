@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragments and Intents Demo"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnHomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Home Fragment" />
+
+    <Button
+        android:id="@+id/btnAboutFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show About Fragment" />
+
+    <Button
+        android:id="@+id/btnOpenSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Second Activity (Intent)" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
